@@ -7,30 +7,363 @@
 <body>
 
   <nav class="bg-white shadow-lg">
-     <div class="max-w-10xl mx-auto px-4">
+     <div class="max-w-6xl mx-auto px-4">
       <div class="flex justify-between">
         <div class="flex space-x-7">
           <div>
-            <a class="flex item-center py-4 px-2" href="#">
-              <img class="h-30 w-60" src="../image/2.png" alt="">
+            <a class="flex items-center py-4 px-2" href="#">
+              <img class="h-8 w-8 mr-2" src="../image/house.png" alt="">
+              <span class="font-semibold text-gray-500 text-lg">Prime Properties</span>
             </a>
           </div>
           
 
-          <div class="hidden md:flex space-x-1 ">
-            <a class="py-6 px-2 border-fuchsia-700 border-b-4 text-fuchsia-700 font-semibold" href="">Home</a>
-            <a class="py-6 px-2 text-gray-500 font-semibold hover:text-fuchsia-700 transition duration-300" href="">Services</a>
-            <a class="py-6 px-2 text-gray-500 font-semibold hover:text-fuchsia-700 transition duration-300" href="">About</a>
-            <a class="py-6 px-2 text-gray-500 font-semibold hover:text-fuchsia-700 transition duration-300" href="">Contact Us</a>
+          <div class="hidden md:flex items-center space-x-1 ">
+            <a class="py-6 px-2 border-fuchsia-700 border-b-4 
+            text-fuchsia-700 font-semibold" href="">Home</a>
+            <a class="py-6 px-2 text-gray-500 font-semibold 
+            hover:text-fuchsia-700 transition duration-300" href="">Services</a>
+            <a class="py-6 px-2 text-gray-500 font-semibold 
+            hover:text-fuchsia-700 transition duration-300" href="">About</a>
+            <a class="py-6 px-2 text-gray-500 font-semibold 
+            hover:text-fuchsia-700 transition duration-300" href="">Contact Us</a>
           </div>
         </div>
       </div>
      </div>
   </nav>
 
-  <div class="h-screen" style="background-image:url(../image/5.png)">
+
+
+  <!-- site banner -->
+  <main class="mt-10 px-4 md:mt-16 flex justify-center">
+    <div class="sm:text-center lg:text-left">
+      <h1 class="tracking-tight font-extrabold text-4xl sm:text-5xl md:text-6xl">
+        <span class="block">Premium Properties</span>
+        <span class="block text-green-400">Non-premium Prices</span>
+      </h1>
+
+      <p class="mt-3 text-base text-gray-500 md:text-xl md:mt-5 
+      sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto lg:mx-0">
+        At prime properties, 
+        we ensure that our clients get the best properties 
+        at affordable prices. Luxury is our priority 
+        and budget is our constrain. Pick and choose
+         from 1000+ properties across the globe.</p>
+      <div class="mt-5 sm:mt-8 sm:flex sm:justify-center">
+        <div class="md:m-2">
+          <a class="bg-green-500 text-white px-8 py-3
+           flex justify-center rounded-md" href="">View properties</a>
+        </div>
+        <div class="md:m-2">
+          <a class="bg-green-100 text-green-700 px-8 py-3 
+          flex justify-center rounded-md" href="">Explore Locations</a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- site banner -->
+
+  <div class="mt-5 flex justify-center">
+    <h2 class=" text-3xl text-gray-500 mb-2">Recent Properties</h2>
+  </div>
+
+
+  <!-- card section -->
+  <!-- card contaianer -->
+  <div class=" flex p-10 grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
+  <!-- card -->
+    <div class="rounded overflow-hidden shadow-lg">
+      <img class="w-full" src="../image/home1.jpg" alt="">
+      <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">Orchid Villa</div>
+        <p class="text-gray-700">Lorem ipsum, dolor sit amet consectetur 
+          adipisicing elit. Cum, tempora maxime, nulla 
+          voluptas vitae aliquam possimus nesciunt, distinctio
+          quibusdam ipsam at sed libero nihil deleniti.</p>
+      </div>
+      <div class="px-6 pt-4 pb-2">
+        <span class="inline-block text-green-300 font-bold text-sm px-3 
+        py-1 mr-2 mb-2">GHC4,500,000</span>
+      </div>
+      <div class="px-6 pt-4 pb-2">
+        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm 
+        font-semibold text-gray-700 mr-2 mb-2">7 Beds</span>
+        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm 
+        font-semibold text-gray-700 mr-2 mb-2">7 Baths</span>
+      </div>
+      <div class="px-6 pt-4 pb-2">
+        <button class="inline-block bg-green-500 rounded-full px-3 py-1 
+        font-semibold text-white mr-2 mb-2">View Property</button>
+      </div>
+    </div>
+
+
+
+    <div class="rounded overflow-hidden shadow-lg">
+      <img class="w-full" src="../image/home2.jpg" alt="">
+      <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">577 Gracia</div>
+        <p class="text-gray-700">Lorem ipsum, dolor sit amet consectetur 
+          adipisicing elit. Cum, tempora maxime, nulla 
+          voluptas vitae aliquam possimus nesciunt, distinctio
+          quibusdam ipsam at sed libero nihil deleniti.</p>
+      </div>
+      <div class="px-6 pt-4 pb-2">
+        <span class="inline-block text-green-300 font-bold text-sm px-3 
+        py-1 mr-2 mb-2">GHC4,500,000</span>
+      </div>
+      <div class="px-6 pt-4 pb-2">
+        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm 
+        font-semibold text-gray-700 mr-2 mb-2">7 Beds</span>
+        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm 
+        font-semibold text-gray-700 mr-2 mb-2">7 Baths</span>
+      </div>
+      <div class="px-6 pt-4 pb-2">
+        <button class="inline-block bg-green-500 rounded-full px-3 py-1 
+        font-semibold text-white mr-2 mb-2">View Property</button>
+      </div>
+    </div>
+
+
+    <div class="rounded overflow-hidden shadow-lg">
+      <img class="w-full" src="../image/home3.jpg" alt="">
+      <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">Nexa Epitome</div>
+        <p class="text-gray-700">Lorem ipsum, dolor sit amet consectetur 
+          adipisicing elit. Cum, tempora maxime, nulla 
+          voluptas vitae aliquam possimus nesciunt, distinctio
+          quibusdam ipsam at sed libero nihil deleniti.</p>
+      </div>
+      <div class="px-6 pt-4 pb-2">
+        <span class="inline-block text-green-300 font-bold text-sm px-3 
+        py-1 mr-2 mb-2">GHC4,500,000</span>
+      </div>
+      <div class="px-6 pt-4 pb-2">
+        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm 
+        font-semibold text-gray-700 mr-2 mb-2">7 Beds</span>
+        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm 
+        font-semibold text-gray-700 mr-2 mb-2">7 Baths</span>
+      </div>
+      <div class="px-6 pt-4 pb-2">
+        <button class="inline-block bg-green-500 rounded-full px-3 py-1 
+        font-semibold text-white mr-2 mb-2">View Property</button>
+      </div>
+    </div>
+
 
   </div>
+  <!-- card section -->
+
+  <!-- banner -->
+  <div class="py-20 h-screen" style="background-image: 
+  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), 
+  url(../image/luxury.jpg)">
+    <div class="contaianer px-10 py-20 mb-20 mt-40">
+      <h2 class="text-4xl font-bold text-white mb-2">
+        Expirience Luxury Like Never Before</h2>
+      <h3 class="text-2xl mb-8 text-gray-200 ">
+        50+ Exortic locations across the globe.</h3>
+      <button class="text-white uppercase 
+      border-2 px-8 py-4 font-bold tracking-wider shadow-lg">
+      Explore locations</button>
+    </div>
+  </div>
+  <!-- banner -->
+
+
+  
+
+  <div class="mt-10 flex justify-center">
+    <h2 class=" text-3xl text-gray-500 mb-2">Locations</h2>
+  </div>
+
+
+
+
+
+  <!-- card section -->
+  <!-- card contaianer -->
+  <div class=" flex p-10 grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
+    <!-- card -->
+      <div class="rounded overflow-hidden shadow-lg">
+        <img class="w-full" src="../image/ny.jpg" alt="">
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2">Newyork</div>
+          <p class="text-gray-700">Lorem ipsum, dolor sit amet consectetur 
+            adipisicing elit. Cum, tempora maxime, nulla 
+            voluptas vitae aliquam possimus nesciunt, distinctio
+            quibusdam ipsam at sed libero nihil deleniti.</p>
+        </div>
+      </div>
+  
+         
+      <div class="rounded overflow-hidden shadow-lg">
+        <img class="w-full" src="../image/california.jpg" alt="">
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2">Sanfransisco</div>
+          <p class="text-gray-700">Lorem ipsum, dolor sit amet consectetur 
+            adipisicing elit. Cum, tempora maxime, nulla 
+            voluptas vitae aliquam possimus nesciunt, distinctio
+            quibusdam ipsam at sed libero nihil deleniti.</p>
+        </div>
+      </div>
+
+
+      <div class="rounded overflow-hidden shadow-lg">
+        <img class="w-full" src="../image/chicago.jpg" alt="">
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2">Ohio</div>
+          <p class="text-gray-700">Lorem ipsum, dolor sit amet consectetur 
+            adipisicing elit. Cum, tempora maxime, nulla 
+            voluptas vitae aliquam possimus nesciunt, distinctio
+            quibusdam ipsam at sed libero nihil deleniti.</p>
+        </div>
+      </div>
+  
+    </div>
+    <!-- card section -->
+
+
+<!-- banner -->
+  <div class="py-20" style="background:linear-gradient(135deg, rgb(9, 169, 137)0%, rgb(202, 244, 232));">
+    <div class="contaianer px-10 py-20 mb-20 mx-auto">
+      <h2 class="text-4xl font-bold text-white mb-2">
+        Save up to 50% on broker commissions</h2>
+      <h3 class="text-2xl mb-8 text-gray-200 ">
+        Lowest brokerage fees</h3>
+      <button class="bg-white rounded-lg uppercase 
+      border-2 px-8 py-4 font-bold tracking-wider shadow-lg">
+      enquire</button>
+    </div>
+  </div>
+<!-- banner -->
+
+
+<div class="mt-10 flex justify-center">
+  <h2 class=" text-3xl text-gray-500 mb-2">What clients say about us ?</h2>
+</div>
+
+
+<!-- Testimonial cards -->
+<div class="p-10 grid grid-cols-1 sm:justify-center gap-5 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3">
+  <div class="shadow-lg w-72 mx-auto bg-white rounded-xl p-4">
+    <p class="text-gray-600">
+      <span class="text-green-500 font-bold">"</span>
+      This is one of the best property websites i have ever used. 
+      Kudos to Prime Properties and the team.
+      <span class="text-green-500 font-bold">"</span>
+    </p>
+    <div class="flex bg-green-100 items-center rounded-full">
+      <a href="" class="block relative">
+        <img class="h-10 w-10 rounded-full mx-auto" src="../image/avatar.png" alt="">
+      </a>
+      <div class="flex flex-col ml-2 justify-between">
+        <span class="text-sm text-green-500 font-bold">El-hakkavod</span>
+        <span class="text-xs flex items-center font-semibold">Director</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="shadow-lg w-72 mx-auto bg-white rounded-xl p-4">
+    <p class="text-gray-600">
+      <span class="text-green-500 font-bold">"</span>
+      This is one of the best property websites i have ever used. 
+      Kudos to Prime Properties and the team.
+      <span class="text-green-500 font-bold">"</span>
+    </p>
+    <div class="flex bg-green-100 items-center rounded-full">
+      <a href="" class="block relative">
+        <img class="h-10 w-10 rounded-full mx-auto" src="../image/avatar.png" alt="">
+      </a>
+      <div class="flex flex-col ml-2 justify-between">
+        <span class="text-sm text-green-500 font-bold">El-hallal</span>
+        <span class="text-xs flex items-center font-semibold">Supervisor</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="shadow-lg w-72 mx-auto bg-white rounded-xl p-4">
+    <p class="text-gray-600">
+      <span class="text-green-500 font-bold">"</span>
+      This is one of the best property websites i have ever used. 
+      Kudos to Prime Properties and the team.
+      <span class="text-green-500 font-bold">"</span>
+    </p>
+    <div class="flex bg-green-100 items-center rounded-full">
+      <a href="" class="block relative">
+        <img class="h-10 w-10 rounded-full mx-auto" src="../image/avatar.png" alt="">
+      </a>
+      <div class="flex flex-col ml-2 justify-between">
+        <span class="text-sm text-green-500 font-bold">El-ahavah</span>
+        <span class="text-xs flex items-center font-semibold">Human Resource</span>
+      </div>
+    </div>
+  </div>
+
+</div>
+<!-- Testimonial cards -->
+
+
+
+<div class="mt-10 flex justify-center">
+  <h2 class=" text-3xl text-gray-500 mb-2">Contact us ?</h2>
+</div>
+
+
+<!-- contact card -->
+<div class="bg-green-300 mt-5 flex p-10 justify-center items-center">
+  <form class="w-full max-w-lg">
+    <div class="flex flex-wrap mx-3 mb-6">
+      <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+        <label class="block uppercase text-xs text-gray-700
+         font-bold mb-2 tracking-wider">First Name</label>
+        <input type="text" class="block py-3 px-4 rounded mb-3
+        w-full border-green-500 text-gray-700" placeholder="Jane">
+        <p class="text-sm text-green-500 italic">Please fill out this field</p>
+      </div>
+  
+      <div class="w-full md:w-1/2 px-3">
+        <label class="block uppercase text-xs text-gray-700
+         font-bold mb-2 tracking-wider">Last Name</label>
+        <input type="text" class="block py-3 px-4 rounded 
+        w-full text-gray-700" placeholder="Doe">
+      </div>
+    </div>
+
+    <div class="flex mx-3 mb-6">
+      <div class="w-full px-3">
+        <label class="block uppercase text-xs text-gray-700
+        font-bold mb-2 tracking-wider">Email</label>
+        <input type="text" class="block py-3 px-4 rounded mb-3
+        w-full border-green-500 text-gray-700" placeholder="example@example.com">
+        <p class="text-xs mt-3 text-gray-700 italic">Some tips - as long as needed</p>
+      </div>
+      </div>
+      
+      <div class="flex mx-3 mb-6">
+        <div class="w-full px-3">
+          <label class="block uppercase text-xs text-gray-700
+          font-bold mb-2 tracking-wider">Message</label>
+          <textarea type="text" class="no-resize resize-none h-48 appearance-none block py-3 px-4 rounded mb-3
+          w-full border-green-500 text-gray-700" placeholder=""></textarea>
+          <p class="text-xs mt-3 text-gray-700 italic">Re-size can be disabled by 
+            set by resize-none / resize-y / resize-x / resize</p>
+        </div>
+      </div>
+
+      <div class="md:flex md:items-center mx-3 mb-6">
+        <div class="md:w-1/3 px-3">
+          <button class="shadow bg-green-400 text-white py-2 px-4 rounded font-bold">Send</button>
+        </div>
+      </div>
+      </div>
+
+    </div>
+    
+  </form>
+</div>
+<!-- contact card -->
 
 
 </body>
